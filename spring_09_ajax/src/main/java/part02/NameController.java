@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 // http://localhost:8090/myapp/name.do
 
-@Controller
+@Controller 
 public class NameController {
 	
 	@RequestMapping(value="/name.do", method=RequestMethod.GET)
